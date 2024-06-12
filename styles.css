@@ -1,0 +1,162 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(rgba(84, 61, 214, 0.8), rgba(19, 21, 100, 0.8));
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* Estilos de las noticias */
+.noticia {
+    background-color: linear-gradient(rgba(84, 61, 214, 0.8), rgba(19, 21, 100, 0.8));
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(127, 32, 146, 0.815);
+}
+
+.noticia img {
+    
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.noticia h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.noticia p {
+    text-align: justify;
+}
+
+.noticia a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.noticia a:hover {
+    color: #4406f0;
+}
+
+/* Estilos del horario */
+.horario_Brahian {
+    background: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(148, 31, 172, 0.767);
+}
+
+.horario_Brahian table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.horario_Brahian th, .horario_Brahian td {
+    padding: 10px;
+    text-align: center;
+}
+
+.horario_Brahian th {
+    background-color: #360ab1ad;
+    color: #fff;
+    font-weight: normal;
+}
+
+.horario_Brahian td {
+    border: 1px solid #ddd;
+}
+
+/* Estilos del perfil */
+.perfil {
+    background: linear-gradient(rgba(84, 61, 214, 0.8), rgba(80, 73, 79, 0.24));
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar contenido */
+}
+
+.perfil img {
+    width: 200px; /* Tamaño específico para la imagen */
+    height: 200px; /* Tamaño específico para la imagen */
+    border-radius: 41%;
+    display: block;
+    margin: 0 auto; /* Centrar la imagen */
+    
+}
+
+.perfil h2 {
+    margin-top: 20px; /* Espacio arriba del título */
+    font-size: 1.5rem;
+}
+
+.perfil p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* Estilos del contacto */
+.contacto {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto li {
+    margin-top: 5px;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contacto a:hover {
+    color: #000;
+}
